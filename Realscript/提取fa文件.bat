@@ -1,0 +1,1 @@
+for /f %%i in ('dir "D:\DATA\ZhangH\zhangheng20160824\flu_out\*.fa" /s /b') do copy "%%i" "D:\DATA\ZhangH\zhangheng20160824\HELLO\"

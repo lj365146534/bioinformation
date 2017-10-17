@@ -1,0 +1,6 @@
+ls|awk -F '_' '{system("mv "$0" "$1"_"$4".fastq")}'
+
+system()中打印的内容是 mv $0 $1_$4.fastq
+
+gzip -d *.gz
+不保存解压
